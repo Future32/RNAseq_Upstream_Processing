@@ -1,0 +1,14 @@
+# 忽略日志文件
+logs/
+*.log
+
+# 忽略中间结果
+*.bam
+*.sam
+*.fastq
+*.fq
+*.gz
+*.count
+
+# 忽略系统文件
+.DS_Store
