@@ -1,4 +1,4 @@
-#RNAseq_Upstream_Processing
+# RNAseq_Upstream_Processing
 This project is based on my exploration practice after studying the publicly available course materials and videos of "Intro to Bioinfo & Comp Bio" taught by Professor Shirley Liu from Harvard University.  
 During the learning process, I explored RNA-seq upstream processing workflows by applying the software tools, coding practices, and analytical methods introduced in the course.  
 The current workflow covers essential steps including quality control, read trimming, alignment, quantification, and quality assessment.  
