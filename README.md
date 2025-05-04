@@ -20,3 +20,17 @@ As I continue learning, more analysis tools and methods will be gradually incorp
   - Extract and summarize Mapping Rate and Duplication Rate into dedicated files
   - Automatically generate a comprehensive batch analysis summary and runtime statistics
 
+---
+
+### `rsem_to_matrix.R`
+
+- **Reads multiple RSEM `.genes.results` files**, extracts **expected counts**, **TPM**, and **FPKM**
+- Outputs **expression matrices** (rows: Ensembl IDs, columns: samples) as CSV files
+
+---
+
+### `rsem_to_genename_matrix.R`
+
+- **Converts Ensembl IDs to Gene Symbols** using `org.Hs.eg.db`
+- **Averages duplicate gene names** after annotation
+- Outputs **gene name–based expression matrices** (TPM/FPKM/count) as CSV files
